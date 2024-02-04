@@ -1,9 +1,15 @@
 import React from 'react'
+import Navbar from '../components/Navbar'
 
-const feeStructure = () => {
+const FeeStructure = () => {
   return (
-    <div>feeStructure</div>
+    <div>
+        <Navbar/>
+        <div className='flex justify-center'>
+            code for Fee Structure
+        </div>
+    </div>
   )
 }
 
-export default feeStructure
+export default FeeStructure
