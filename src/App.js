@@ -7,7 +7,7 @@ import {Routes, Route} from 'react-router-dom'
 
 function App() {
   return (
-    <div className="App">
+    <div className=" bg-[#1A3C46] h-full">
       
       <Routes>
           <Route path="/" element={<MainPage/>}/>

@@ -1,10 +1,13 @@
-import React, { useState } from 'react';
+import React from 'react'
+import Navbar from '../components/Navbar'
 
+const FeeStructure = () => {
   return (
-<div>
+    <div>
+    <Navbar/>
+    <p>fee structure</p>
+    </div>
+  )
+}
 
-</div>
-  );
-};
-
-export default FeeStructure;
+export default FeeStructure
