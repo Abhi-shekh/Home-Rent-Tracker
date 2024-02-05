@@ -1,15 +1,10 @@
-import React from 'react'
-import Navbar from '../components/Navbar'
+import React, { useState } from 'react';
 
-const FeeStructure = () => {
   return (
-    <div>
-        <Navbar/>
-        <div className='flex justify-center'>
-            code for Fee Structure
-        </div>
-    </div>
-  )
-}
+<div>
 
-export default FeeStructure
+</div>
+  );
+};
+
+export default FeeStructure;
