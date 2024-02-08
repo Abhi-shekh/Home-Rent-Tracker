@@ -1,5 +1,6 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
   return (
@@ -7,16 +8,16 @@ const Navbar = () => {
     <div></div>
     <ul className=' flex gap-5 w-[40%] justify-evenly text-white'>
         <li>
-            <NavLink to="/dashboard">DashBoard</NavLink>
+           <NavLink to="/ Dashboard">DashBoard</NavLink>
         </li>
         <li>
-        <NavLink to="/feeStructure">Fee Structure</NavLink>
+        <NavLink to="/FeeStructure">Fee Structure</NavLink>
         </li>
         <li>
-            Complaint
+            <Link to="/Complaint">Complaint</Link>
         </li>
         <li>
-            contacts
+        <Link to="/Support">Contact</Link>
         </li>
     </ul>
     </div>

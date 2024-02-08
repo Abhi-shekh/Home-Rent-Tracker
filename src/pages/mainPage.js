@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { Navigate } from 'react-router-dom';
-// import './mainPage.css';
 
 
 
@@ -52,8 +51,10 @@ const Mainpage = () => {
             <button
               onClick={handleVerifyOTP}
               className=" bg-[#007bff] text-white cursor-pointer m-2.5 px-5 py-2.5 border-[none] hover:bg-[#0056b3]"
-            >
-              Verify OTP
+         
+         >
+
+          submit
             </button>
           </>
         )}
