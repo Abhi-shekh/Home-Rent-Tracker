@@ -17,6 +17,7 @@ const FeeStructure = () => {
   const handleLeave = () => {
     setShowDetails(false);
   };
+
   const febAdd = () => {
     setshowFeb(false);
   }
@@ -24,6 +25,7 @@ const FeeStructure = () => {
   const clickedhandler = () => {
     setShowDetails(true);
   };
+  
   // const febClick = () => {
   //   setshowFeb(false);
   // }
