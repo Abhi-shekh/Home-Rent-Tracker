@@ -1,5 +1,5 @@
 import './App.css';
-import FeeStructure from './pages/feeStructure';
+import FeeStructure from './pages/FeeStructure';
 import DashBoard from './pages/DashBoard';
 import MainPage from './pages/MainPage';
 

@@ -8,7 +8,7 @@ const Navbar = () => {
     <div></div>
     <ul className=' flex gap-5 w-[40%] justify-evenly text-white'>
         <li>
-           <NavLink to="/ Dashboard">DashBoard</NavLink>
+           <NavLink to="/dashboard">DashBoard</NavLink>
         </li>
         <li>
         <NavLink to="/FeeStructure">Fee Structure</NavLink>
